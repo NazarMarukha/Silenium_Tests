@@ -15,4 +15,12 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="Selenium.Support" Version="3.141.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tests\" />
+    <Folder Include="PageObject\" />
+    <Folder Include="Framework\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Tests\Setting.cs" />
+  </ItemGroup>
 </Project>
